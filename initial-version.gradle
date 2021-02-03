@@ -1,5 +1,8 @@
 scmVersion {
     tag {
+
+        prefix = '' // prefix for release, set to release as def. 
+        versionSeparator = '' // sep after prefix, was - as default
         initialVersion = {config, position -> "0.0.1"}
     }
 }
