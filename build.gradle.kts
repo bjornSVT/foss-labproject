@@ -24,7 +24,7 @@ repositories {
     mavenCentral()
 }
 
-
+// test feature branch should not sync
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
 }
